@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>IDEA使用 | Bajins</title>
+    <meta name="generator" content="VuePress 1.8.2">
+    <link rel="icon" href="/images/icons/logo.png">
+    <link rel="apple-touch-icon" href="/images/icons/logo.png">
+    <link rel="manifest" href="/manifest.json">
+    <script type="text/javascript" src="/assets/js/load.js"></script>
+    <meta name="description" content="IntelliJ IDEA神器使用技巧
+IDEA的基本使用：让你的IDEA有飞一般的感觉">
+    <meta name="image" content="https://bajins.com/images/IDEA远程debug调试.png">
+    <meta name="twitter:title" content="IDEA使用">
+    <meta name="twitter:description" content="IntelliJ IDEA神器使用技巧
+IDEA的基本使用：让你的IDEA有飞一般的感觉">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://bajins.com/images/IDEA远程debug调试.png">
+    <meta name="twitter:url" content="https://bajins.com/IDE/IDEA%E4%BD%BF%E7%94%A8.html">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="IDEA使用">
+    <meta property="og:description" content="IntelliJ IDEA神器使用技巧
+IDEA的基本使用：让你的IDEA有飞一般的感觉">
+    <meta property="og:image" content="https://bajins.com/images/IDEA远程debug调试.png">
+    <meta property="og:url" content="https://bajins.com/IDE/IDEA%E4%BD%BF%E7%94%A8.html">
+    <meta property="og:site_name" content="bajins">
+    <meta itemprop="name" content="IDEA使用">
+    <meta itemprop="description" content="IntelliJ IDEA神器使用技巧
+IDEA的基本使用：让你的IDEA有飞一般的感觉">
+    <meta itemprop="image" content="https://bajins.com/images/IDEA远程debug调试.png">
+    <meta name="theme-color" content="#3eaf7c">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="msapplication-TileImage" content="/images/icons/logo.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="keywords" content="bajins,vue,vuepress,vuepress-theme,theme,主题,vuepress主题,blog
+        ,vuepress-blog,java,python,shell,sql,golang,script,shell script,nginx,windows,去广告,androd,google drive
+        ,one drive,idea,eclipse,git,小程序">
+    <meta name="referrer" content="never">
+    
+    <link rel="preload" href="/assets/css/0.styles.6d32ab71.css" as="style"><link rel="preload" href="/assets/js/app.59896667.js" as="script"><link rel="preload" href="/assets/js/3.0bead3da.js" as="script"><link rel="preload" href="/assets/js/18.1a635701.js" as="script"><link rel="prefetch" href="/assets/js/10.67ca6452.js"><link rel="prefetch" href="/assets/js/11.df5b4709.js"><link rel="prefetch" href="/assets/js/12.54a0706a.js"><link rel="prefetch" href="/assets/js/13.1129df97.js"><link rel="prefetch" href="/assets/js/14.a189f633.js"><link rel="prefetch" href="/assets/js/15.1d70f683.js"><link rel="prefetch" href="/assets/js/16.332a3501.js"><link rel="prefetch" href="/assets/js/17.7ed916b4.js"><link rel="prefetch" href="/assets/js/19.cb581cb6.js"><link rel="prefetch" href="/assets/js/20.09690c01.js"><link rel="prefetch" href="/assets/js/21.4d21601d.js"><link rel="prefetch" href="/assets/js/22.7429e596.js"><link rel="prefetch" href="/assets/js/23.169734ae.js"><link rel="prefetch" href="/assets/js/24.d3881760.js"><link rel="prefetch" href="/assets/js/25.9bc03d97.js"><link rel="prefetch" href="/assets/js/26.65aec86f.js"><link rel="prefetch" href="/assets/js/27.d8bb8e75.js"><link rel="prefetch" href="/assets/js/28.9ee56292.js"><link rel="prefetch" href="/assets/js/29.1e34a286.js"><link rel="prefetch" href="/assets/js/30.4f54262b.js"><link rel="prefetch" href="/assets/js/31.325d12b6.js"><link rel="prefetch" href="/assets/js/32.0325dd3e.js"><link rel="prefetch" href="/assets/js/33.dc77b22d.js"><link rel="prefetch" href="/assets/js/34.7ea6e228.js"><link rel="prefetch" href="/assets/js/35.21c53fa9.js"><link rel="prefetch" href="/assets/js/36.f44ef563.js"><link rel="prefetch" href="/assets/js/37.c7ec67d9.js"><link rel="prefetch" href="/assets/js/38.75c503ed.js"><link rel="prefetch" href="/assets/js/39.93d69581.js"><link rel="prefetch" href="/assets/js/4.d44fc93e.js"><link rel="prefetch" href="/assets/js/40.bde34b53.js"><link rel="prefetch" href="/assets/js/41.b0ab088b.js"><link rel="prefetch" href="/assets/js/42.8984a179.js"><link rel="prefetch" href="/assets/js/43.db2478a9.js"><link rel="prefetch" href="/assets/js/44.77456b95.js"><link rel="prefetch" href="/assets/js/45.7d8617a3.js"><link rel="prefetch" href="/assets/js/46.9d5fb49e.js"><link rel="prefetch" href="/assets/js/47.2d38ada5.js"><link rel="prefetch" href="/assets/js/48.1391798a.js"><link rel="prefetch" href="/assets/js/49.c046dabd.js"><link rel="prefetch" href="/assets/js/5.8e31758c.js"><link rel="prefetch" href="/assets/js/50.2570a056.js"><link rel="prefetch" href="/assets/js/51.d039d9b9.js"><link rel="prefetch" href="/assets/js/52.69624e02.js"><link rel="prefetch" href="/assets/js/53.34431124.js"><link rel="prefetch" href="/assets/js/54.c8d87166.js"><link rel="prefetch" href="/assets/js/55.741a17cc.js"><link rel="prefetch" href="/assets/js/56.8a296956.js"><link rel="prefetch" href="/assets/js/57.5457e1a0.js"><link rel="prefetch" href="/assets/js/58.45f32186.js"><link rel="prefetch" href="/assets/js/59.e8736cad.js"><link rel="prefetch" href="/assets/js/6.d1d0c76f.js"><link rel="prefetch" href="/assets/js/60.21902e0d.js"><link rel="prefetch" href="/assets/js/61.3f8be323.js"><link rel="prefetch" href="/assets/js/62.d35c7187.js"><link rel="prefetch" href="/assets/js/63.91f769f0.js"><link rel="prefetch" href="/assets/js/64.92604f15.js"><link rel="prefetch" href="/assets/js/65.fd77adcc.js"><link rel="prefetch" href="/assets/js/66.1f8fe190.js"><link rel="prefetch" href="/assets/js/67.05719f09.js"><link rel="prefetch" href="/assets/js/68.64e37e8b.js"><link rel="prefetch" href="/assets/js/69.367793b5.js"><link rel="prefetch" href="/assets/js/7.be9d564a.js"><link rel="prefetch" href="/assets/js/70.82f3ebdc.js"><link rel="prefetch" href="/assets/js/71.59b736e4.js"><link rel="prefetch" href="/assets/js/72.489b2ad4.js"><link rel="prefetch" href="/assets/js/73.0c08fdaf.js"><link rel="prefetch" href="/assets/js/74.cc69afbc.js"><link rel="prefetch" href="/assets/js/75.6d695746.js"><link rel="prefetch" href="/assets/js/76.9a21c35a.js"><link rel="prefetch" href="/assets/js/77.c62a1442.js"><link rel="prefetch" href="/assets/js/78.dc34b8dc.js"><link rel="prefetch" href="/assets/js/79.d1e09c84.js"><link rel="prefetch" href="/assets/js/8.6f97f455.js"><link rel="prefetch" href="/assets/js/80.2793a8df.js"><link rel="prefetch" href="/assets/js/81.93b65634.js"><link rel="prefetch" href="/assets/js/82.2c76b0fd.js"><link rel="prefetch" href="/assets/js/83.452a8944.js"><link rel="prefetch" href="/assets/js/9.56b337a8.js"><link rel="prefetch" href="/assets/js/vendors~flowchart.92693695.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.6d32ab71.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/images/icons/logo.png" alt="Bajins" class="logo"> <span class="site-name can-hide">Bajins</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/Go/" class="nav-link">
+  Go
+</a></div><div class="nav-item"><a href="/IDE/" class="nav-link router-link-active">
+  IDE
+</a></div><div class="nav-item"><a href="/Java/" class="nav-link">
+  Java
+</a></div><div class="nav-item"><a href="/Other/" class="nav-link">
+  Other
+</a></div><div class="nav-item"><a href="/Python/" class="nav-link">
+  Python
+</a></div><div class="nav-item"><a href="/SQL/" class="nav-link">
+  SQL
+</a></div><div class="nav-item"><a href="/Shell/" class="nav-link">
+  Shell
+</a></div><div class="nav-item"><a href="/System/" class="nav-link">
+  System
+</a></div><div class="nav-item"><a href="/Web/" class="nav-link">
+  Web
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="更多资源" class="dropdown-title"><span class="title">更多资源</span> <span class="arrow down"></span></button> <button type="button" aria-label="更多资源" class="mobile-dropdown-title"><span class="title">更多资源</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="https://www.gotoxi.com" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  WeChat小程序
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-subitem"><a href="https://github.com/woytu/tool-gin" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  获取XShell
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-subitem"><a href="https://gd.bajins.com" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GoogleDrive
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-subitem"><a href="https://od.gotoxi.com" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  OneDrive
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></li><li class="dropdown-item"><h4>
+          
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/files.html" class="nav-link">
+  文件
+</a></li><li class="dropdown-subitem"><a href="/Other/Bookmarks.html" class="nav-link">
+  书签锦集
+</a></li><li class="dropdown-subitem"><a href="/Other/Windows软件.html" class="nav-link">
+  Windows软件
+</a></li><li class="dropdown-subitem"><a href="/Other/Markdown.html#工具" class="nav-link">
+  Markdown工具
+</a></li></ul></li></ul></div></div> <a href="https://github.com/woytu/notes-vuepress" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/Go/" class="nav-link">
+  Go
+</a></div><div class="nav-item"><a href="/IDE/" class="nav-link router-link-active">
+  IDE
+</a></div><div class="nav-item"><a href="/Java/" class="nav-link">
+  Java
+</a></div><div class="nav-item"><a href="/Other/" class="nav-link">
+  Other
+</a></div><div class="nav-item"><a href="/Python/" class="nav-link">
+  Python
+</a></div><div class="nav-item"><a href="/SQL/" class="nav-link">
+  SQL
+</a></div><div class="nav-item"><a href="/Shell/" class="nav-link">
+  Shell
+</a></div><div class="nav-item"><a href="/System/" class="nav-link">
+  System
+</a></div><div class="nav-item"><a href="/Web/" class="nav-link">
+  Web
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="更多资源" class="dropdown-title"><span class="title">更多资源</span> <span class="arrow down"></span></button> <button type="button" aria-label="更多资源" class="mobile-dropdown-title"><span class="title">更多资源</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="https://www.gotoxi.com" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  WeChat小程序
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-subitem"><a href="https://github.com/woytu/tool-gin" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  获取XShell
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-subitem"><a href="https://gd.bajins.com" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GoogleDrive
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-subitem"><a href="https://od.gotoxi.com" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  OneDrive
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></li><li class="dropdown-item"><h4>
+          
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/files.html" class="nav-link">
+  文件
+</a></li><li class="dropdown-subitem"><a href="/Other/Bookmarks.html" class="nav-link">
+  书签锦集
+</a></li><li class="dropdown-subitem"><a href="/Other/Windows软件.html" class="nav-link">
+  Windows软件
+</a></li><li class="dropdown-subitem"><a href="/Other/Markdown.html#工具" class="nav-link">
+  Markdown工具
+</a></li></ul></li></ul></div></div> <a href="https://github.com/woytu/notes-vuepress" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>IDE</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/IDE/" aria-current="page" class="sidebar-link">IDE</a></li><li><a href="/IDE/Chrome.html" class="sidebar-link">Chrome</a></li><li><a href="/IDE/Eclipse.html" class="sidebar-link">Eclipse</a></li><li><a href="/IDE/Git使用.html" class="sidebar-link">Git使用</a></li><li><a href="/IDE/Git安装与问题.html" class="sidebar-link">Git安装与问题</a></li><li><a href="/IDE/Git服务.html" class="sidebar-link">Git服务</a></li><li><a href="/IDE/IDEA使用.html" class="active sidebar-link">IDEA使用</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/IDE/IDEA使用.html#flag" class="sidebar-link">Flag</a></li><li class="sidebar-sub-header"><a href="/IDE/IDEA使用.html#建立多级项目" class="sidebar-link">建立多级项目</a></li><li class="sidebar-sub-header"><a href="/IDE/IDEA使用.html#错误解决" class="sidebar-link">错误解决</a></li></ul></li><li><a href="/IDE/IDEA插件.html" class="sidebar-link">IDEA插件</a></li><li><a href="/IDE/IDEA设置.html" class="sidebar-link">IDEA设置</a></li><li><a href="/IDE/TextEditor.html" class="sidebar-link">TextTditor</a></li><li><a href="/IDE/VisualStudioCode.html" class="sidebar-link">VisualStudioCode</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="idea使用"><a href="#idea使用" class="header-anchor">#</a> IDEA使用</h1> <p></p><div class="table-of-contents"><ul><li><a href="#flag">Flag</a></li><li><a href="#建立多级项目">建立多级项目</a><ul><li><a href="#远程debug">远程Debug</a></li></ul></li><li><a href="#错误解决">错误解决</a><ul><li><a href="#idea无限indexing解决方法">idea无限indexing解决方法</a></li><li><a href="#outofmemoryerror">OutOfMemoryError</a></li></ul></li></ul></div><p></p> <h2 id="flag"><a href="#flag" class="header-anchor">#</a> Flag</h2> <ul><li><a href="https://github.com/JetBrains" target="_blank" rel="noopener noreferrer">https://github.com/JetBrains<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a> <ul><li><a href="https://www.jetbrains.com/products.html#type=ide" target="_blank" rel="noopener noreferrer">https://www.jetbrains.com/products.html#type=ide<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></li> <li>简体中文专题教程 <a href="https://github.com/judasn/IntelliJ-IDEA-Tutorial" target="_blank" rel="noopener noreferrer">https://github.com/judasn/IntelliJ-IDEA-Tutorial<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul> <ul><li><a href="https://mp.weixin.qq.com/s/XFoOBeTaBwBAsRgadxMLfQ" target="_blank" rel="noopener noreferrer">教育邮箱免费申请JetBrains教育许可证<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li> <li><a href="https://www.fuocu.cn/archives/jetbrains-crack" target="_blank" rel="noopener noreferrer">JetBrains全系列软件激活教程激活码以及JetBrains系列软件汉化包<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li> <li><a href="https://github.com/pingfangx/TranslatorX" target="_blank" rel="noopener noreferrer">JetBrains 2019.3系列软件汉化包<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul> <ul><li><a href="https://www.imooc.com/learn/924" target="_blank" rel="noopener noreferrer">IntelliJ IDEA神器使用技巧<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li> <li><a href="https://blog.csdn.net/fly910905/article/details/77868300" target="_blank" rel="noopener noreferrer">IDEA的基本使用：让你的IDEA有飞一般的感觉<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul> <p><strong>查看类类图及继承关系</strong></p> <ul><li>选中类右键 -&gt; <code>Diagram</code> -&gt; <code>Show Diagram</code> <kdb>Ctrl</kdb>+<kdb>Alt</kdb>+<kdb>Shift</kdb>+<kdb>U</kdb> <ul><li>选中关系图中的名称，点击右键查看实现类 <code>Show Implementations</code> <kdb>Ctrl</kdb>+<kdb>Alt</kdb>+<kdb>B</kdb></li> <li>选中关系图中的名称，点击右键查看父类 <code>Show Parents</code> <kdb>Ctrl</kdb>+<kdb>Alt</kdb>+<kdb>P</kdb></li></ul></li></ul> <ul><li>蓝色实线箭头是指继承关系</li> <li>绿色虚线箭头是指接口实现关系</li></ul> <details><summary><b>展开查看思维导图</b></summary> <img src="/images/IDEA使用技巧.png" alt=""></details> <h2 id="建立多级项目"><a href="#建立多级项目" class="header-anchor">#</a> 建立多级项目</h2> <blockquote><p>特别说明：每个模块中的顶级包名（java目录下的包名）一定不能一样，否则编译器会把多个模块中的代码编译相互串连。
+如：<code>src/main/java/com/bajins/demo</code>这里的<code>com/bajins/demo</code>就是顶级包名，
+应该加上当前项目名<code>src/main/java/com/bajins/demo/admin</code></p></blockquote> <p><strong>创建顶级项目（根项目）</strong></p> <ol><li>点击顶部菜单栏 <code>File</code> -&gt; <code>New</code> -&gt; <code>Project</code>（或在欢迎页面点击<code>Create New Project</code>） -&gt; <code>Maven</code>（不要勾选<code>Create from archetype</code>） -&gt; <code>Next</code></li> <li>填写 <code>Name</code>（项目名）、<code>GroupId</code>（包名）、<code>Artifact</code>（项目名），点击 <code>Next</code></li> <li>打开 <code>pom.xml</code> ，添加 <code>&lt;packaging&gt;pom&lt;/packaging&gt;</code>（聚合工程或传递依赖用），如果有了就不用添加</li> <li>删除除了 <code>pom.xml</code> 以外的其他文件和目录（包括<code>src</code>）</li></ol> <p><strong>创建子项目（二级项目）</strong></p> <ol><li>在顶级项目名上点击<kbd>右键</kbd>弹出菜单（或点击顶部菜单<code>File</code>） -&gt; <code>New</code> -&gt; <code>Module</code> -&gt; <code>Maven</code>（不要勾选<code>Create from archetype</code>） -&gt; <code>Next</code></li> <li>填写 <code>Name</code>（项目名）、<code>GroupId</code>（包名）、<code>Artifact</code>（项目名） -&gt; 点击 <code>Next</code> -&gt; 选择 <code>Parent</code>（上级项目）放在最后操作是因为修改 <code>Name</code> 时会自动变化</li> <li>打开 <code>pom.xml</code> ，添加 <code>&lt;packaging&gt;pom&lt;/packaging&gt;</code>（聚合工程或传递依赖用）</li> <li>删除除了 <code>pom.xml</code> 以外的其他文件和目录（包括<code>src</code>）</li></ol> <p><strong>创建子模块（最后一级项目）</strong></p> <blockquote><p>如果还需要创建下级项目，重复创建子项目的操作即可</p></blockquote> <blockquote><p>创建子模块只需要重复创建子项目，但是不要删除任何其他文件和目录，也不要添加<code>&lt;packaging&gt;pom&lt;/packaging&gt;</code></p></blockquote> <details><summary style="font-size:130%;">展开查看示例结构</summary> <div class="language- extra-class"><pre class="language-text"><code>demo                        # 顶级项目（根项目）
+│  pom.xml
+│  
+├─admin                     # 二级项目
+│  │  pom.xml
+│  │  
+│  ├─admin-api              # 二级项目模块
+│  │  │  pom.xml
+│  │  │  
+│  │  └─src
+│  │      ├─main
+│  │      │  ├─java
+│  │      │  └─resources
+│  │      └─test
+│  │          └─java
+│  └─admin-web              # 二级项目模块
+│      │  pom.xml
+│      │  
+│      └─src
+│          ├─main
+│          │  ├─java
+│          │  └─resources
+│          └─test
+│              └─java
+└─buyer                     # 二级项目
+    │  pom.xml
+    │  
+    ├─shop                  # 三级项目
+    │  │  pom.xml
+    │  │  
+    │  ├─shop-api           # 三级项目模块
+    │  │  │  pom.xml
+    │  │  │  
+    │  │  └─src
+    │  │      ├─main
+    │  │      │  ├─java
+    │  │      │  └─resources
+    │  │      └─test
+    │  │          └─java
+    │  └─shop-client        # 三级项目模块
+    │      │  pom.xml
+    │      │  
+    │      └─src
+    │          ├─main
+    │          │  ├─java
+    │          │  └─resources
+    │          └─test
+    │              └─java
+    └─user                  # 三级项目
+        │  pom.xml
+        │  
+        ├─user-api          # 三级项目模块
+        │  │  pom.xml
+        │  │  
+        │  └─src
+        │      ├─main
+        │      │  ├─java
+        │      │  └─resources
+        │      └─test
+        │          └─java
+        └─user-client       # 三级项目模块
+            │  pom.xml
+            │  
+            └─src
+                ├─main
+                │  ├─java
+                │  └─resources
+                └─test
+                    └─java
+</code></pre></div></details> <h3 id="远程debug"><a href="#远程debug" class="header-anchor">#</a> 远程Debug</h3> <p><strong>首先要设置<a href="/Java/JDK工具.html#远程debug参数">启动JVM远程Debug参数</a></strong></p> <ul><li>点击顶部菜单<code>Run</code>点击<code>Edit Configuration</code>按钮 -&gt; 出现弹窗，点击<code>+</code>按钮，找到<code>Remote</code>选项。</li> <li>在<code>Name</code>中填入Remote项目名称，在<code>Host</code>中填IP地址，在<code>Port</code>中填端口号，在<code>Use Module classpath</code>选择远程调试的项目module，配置完成后点击OK即可</li></ul> <blockquote><p>启动项目时选择刚刚填的Remote项目名称</p></blockquote> <p><img src="/images/IDEA%E8%BF%9C%E7%A8%8Bdebug%E8%B0%83%E8%AF%95.png" alt=""></p> <h2 id="错误解决"><a href="#错误解决" class="header-anchor">#</a> 错误解决</h2> <h3 id="idea无限indexing解决方法"><a href="#idea无限indexing解决方法" class="header-anchor">#</a> idea无限indexing解决方法</h3> <ul><li><a href="https://github.com/tengj/IntelliJ-IDEA-Tutorial/blob/newMaster/IntelliJ-IDEA-cache.md" target="_blank" rel="noopener noreferrer">IntelliJ IDEA 缓存和索引介绍和清理方法<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul> <p><img src="https://github.com/tengj/IntelliJ-IDEA-Tutorial/raw/newMaster/images/xii-a-invalidate-cache-1.jpg" alt=""></p> <h3 id="outofmemoryerror"><a href="#outofmemoryerror" class="header-anchor">#</a> OutOfMemoryError</h3> <blockquote><p><code>idea Exception in thread &quot;http-apr-8080-exec-2&quot; java.lang.OutOfMemoryError: PermGen space</code></p></blockquote> <ul><li><p>打开顶部菜单<code>Run</code> -&gt; <code>Edit Configurations</code> -&gt; 应用名称如<code>SpringBoot</code> -&gt; <code>目标项目</code> -&gt; <code>Configuration</code></p></li> <li><p>在<code>Vm options</code>中输入</p></li></ul> <div class="language-conf extra-class"><pre class="language-text"><code>-Xms2048m
+-Xmx2048m
+-XX:MaxPermSize=4096m
+-Drebel.spring_plugin=true
+-Drebel.spring_mvc_plugin=true
+-Drebel.hibernate_plugin=true
+</code></pre></div></div> <footer class="page-edit"><div class="edit-link"><a href="https://github.com/woytu/notes-vuepress/edit/master//IDE/IDEA使用.md" target="_blank" rel="noopener noreferrer">在 GitHub 上编辑此页</a> <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></div> <div class="last-updated"><span class="prefix">上次更新:</span> <span class="time">2021-07-22 01:09:20</span></div></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/IDE/Git服务.html" class="prev">
+        Git服务
+      </a></span> <span class="next"><a href="/IDE/IDEA插件.html">
+        IDEA插件
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"><!----></div></div>
+    <script src="/assets/js/app.59896667.js" defer></script><script src="/assets/js/3.0bead3da.js" defer></script><script src="/assets/js/18.1a635701.js" defer></script>
+  </body>
+</html>
